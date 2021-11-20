@@ -1,0 +1,16 @@
+update-checker: true
+reset:
+   phantom-statistics: true
+   storm: true
+   thunder: true
+message:
+   help: "&a[OnePlayerSleep]: &f/oneplayersleep reload - to reload the plugin"
+   reloaded: "&aReloaded OnePlayerSleep!"
+   no-permission: "&cYou don't have permission"
+   new-update: "&a[OnePlayerSleep]: There is a new update available!"
+   slept:
+      enable: true
+      per-world: true
+      messages:
+         - "&a%player_displayname% &fis sleeping"
+         - "&a%player_displayname% &fis having sweet dreams"

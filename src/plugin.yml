@@ -1,0 +1,16 @@
+name: OnePlayerSleep
+description: This plugin can help the player sleep alone to skip the day
+main: me.mahasamut.OnePlayerSleep.Main
+version: 1.1
+api-version: 1.13
+author: M4h45amu7x
+depend: [PlaceholderAPI]
+commands:
+   oneplayersleep:
+      description: Manage the OnePlayerSleep Plugin
+      usage: /<command>
+      aliases: [ops]
+permissions:
+   oneplayersleep.reload:
+      default: op
+      description: Ability to reload the plugin
